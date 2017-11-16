@@ -40,6 +40,7 @@ user3 = User.objects.get(id=3)
 user3.last_name= "Rogers"
 user3.save()
 ------------
+Know how to delete a record of a user whose id is 4 (use something like User.objects.get(id=2).delete...).
 user4 = User.objects.get(id=4)
 user4.delete()
 '''
